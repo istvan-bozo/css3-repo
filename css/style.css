@@ -21,6 +21,13 @@
   /*border: 3px solid lightskyblue;*/
   background: beige;
 }
+/* Navigaiton links mouse hover */
+.link_nav:hover{
+  border: 2px;
+  border-style: solid;
+  box-shadow: 0 0 15px DodgerBlue;
+  transition: box-shadow 0.5s ease;
+}
 
 body{
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -75,6 +82,10 @@ footer{
   font-size: 90%;
   text-align: center;
   border-style:groove;
+}
+
+.back{
+  color: #ffffff;
 }
 /* ---------------------------- INDEX page styles ---------------------------- */
 /* table header */
